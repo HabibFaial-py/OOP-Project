@@ -178,20 +178,30 @@ Bill status = `Unpaid`.
 
 ```
 HospitalMS/
-├── main.cpp
-├── Person.h            Person.cpp          ← abstract base class
-├── Patient.h           Patient.cpp         ← derived from Person
-├── Doctor.h            Doctor.cpp          ← derived from Person
-├── Appointment.h       Appointment.cpp
-├── Room.h              Room.cpp
-├── Bill.h              Bill.cpp            ← billing module
-├── HospitalSystem.h    HospitalSystem.cpp  ← main controller
-├── patients.txt
-├── doctors.txt
-├── appointments.txt
-├── rooms.txt
-└── bills.txt
-```
+.
+├── Appointment.cpp
+├── Appointment.h
+├── Bill.cpp
+├── Bill.h
+├── Doctor.cpp
+├── Doctor.h
+├── Hospital.h
+├── Hospital_appointment.cpp
+├── Hospital_billing.cpp
+├── Hospital_core.cpp
+├── Hospital_doctor.cpp
+├── Hospital_fileio.cpp
+├── Hospital_patient.cpp
+├── Hospital_room.cpp
+├── Hospital_run.cpp
+├── Makefile
+├── Patient.cpp
+├── Patient.h
+├── Person.cpp
+├── Person.h
+├── Room.cpp
+├── Room.h
+└── main.cpp
 
 ---
 
