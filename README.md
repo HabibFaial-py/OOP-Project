@@ -33,37 +33,17 @@ A console-based C++ application to manage core hospital operations including pat
 
 ---
 
-## 🛠️ How to Compile
+## 🛠️ How to Compile and Run
 
-Make sure you have **g++** (GCC) installed.
-
-### Linux / macOS
-```bash
-g++ -o HospitalMS main.cpp Person.cpp Patient.cpp Doctor.cpp Appointment.cpp Room.cpp Bill.cpp HospitalSystem.cpp
-```
+Make sure you have **g++/mingw32** (GCC) installed.
 
 ### Windows (MinGW)
 ```bash
-g++ -o HospitalMS.exe main.cpp Person.cpp Patient.cpp Doctor.cpp Appointment.cpp Room.cpp Bill.cpp HospitalSystem.cpp
+mingw32-make //compiles all files
+./hospital //Runs
 ```
 
 > Requires C++11 or later. Add `-std=c++11` flag if needed.
-
----
-
-## ▶️ How to Run
-
-### Linux / macOS
-```bash
-./HospitalMS
-```
-
-### Windows
-```bash
-HospitalMS.exe
-```
-
-The program will automatically load existing data from the text files (`patients.txt`, `doctors.txt`, `appointments.txt`, `rooms.txt`, `bills.txt`) if they exist.
 
 ---
 
