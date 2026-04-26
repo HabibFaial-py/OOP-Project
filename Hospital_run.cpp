@@ -3,12 +3,12 @@
 using namespace std;
 
 void Hospital::run() {
-    printHeader("HOSPITAL MANAGEMENT SYSTEM");
     cout << "  Welcome! Data loaded from previous session.\n";
 
     int choice;
     do {
     	clearScreen();
+        printHeader("HOSPITAL MANAGEMENT SYSTEM");
         printHeader("MAIN MENU");
         cout << "  1. Patient Management\n"
              << "  2. Doctor Management\n"
